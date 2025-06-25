@@ -74,46 +74,46 @@ function App() {
     {
       id: 1,
       title: 'Hey Chikitha',
-      image: 'projects/hey-chikitha-title.png',
-      description: 'Modern brand identity',
+      image: '/projects/hey-chikitha-title.png',
+      description: 'Telugu Feature Film',
       posters: [
-        'projects/hc1.jpg',
-       'projects/hc2.jpg',
-        'projects/hc3.jpg',
-         'projects/hc4.jpg',
-       'projects/hc5.jpg',
-        'projects/hc6.png'
+        '/projects/hc1.jpg',
+       '/projects/hc2.jpg',
+        '/projects/hc3.jpg',
+         '/projects/hc4.jpg',
+       '/projects/hc5.jpg',
+        '/projects/hc6.png'
       ]
     },
     {
       id: 2,
       title: 'Kalavar Raja Kahani',
-      image: 'projects/kalavar-raja-title.png',
-      description: 'Personal brand website',
+      image: '/projects/kalavar-raja-title.png',
+      description: 'Indie Film',
       posters: [
-        'projects/krk1.jpg',
-       'projects/krk2.jpg',
-        'projects/krk3.png'
+        '/projects/krk1.jpg',
+       '/projects/krk2.jpg',
+        '/projects/krk3.png'
       ]
     },
     {
       id: 3,
       title: 'Hide N Seek',
-      image: 'projects/hide-n-seek-title.png',
-      description: 'Business solutions',
+      image: '/projects/hide-n-seek-title.png',
+      description: 'Telugu / Tamil Feature Film',
       posters: [
-       'projects/hns1.jpg',
-       'projects/hns2.jpg',
-        'projects/hns3.jpg',
-         'projects/hns4.png',
-       'projects/hns5.jpg',
-        'projects/hns6.jpg',
-        'projects/hns7.jpg',
-        'projects/hns8.png',
-        'projects/hns9.jpg',
-        'projects/hns10.jpg',
-        'projects/hns11.jpg',
-        'projects/hns12.jpg',
+       '/projects/hns1.jpg',
+       '/projects/hns2.jpg',
+        '/projects/hns3.jpg',
+         '/projects/hns4.png',
+       '/projects/hns5.jpg',
+        '/projects/hns6.jpg',
+        '/projects/hns7.jpg',
+        '/projects/hns8.png',
+        '/projects/hns9.jpg',
+        '/projects/hns10.jpg',
+        '/projects/hns11.jpg',
+        '/projects/hns12.jpg',
       ]
     },
 
@@ -121,25 +121,25 @@ function App() {
       id: 4,
       title: 'Title Designs',
       image: 'projects/aa.jpg',
-      description: 'Business solutions',
+      description: 'Film title designs',
       posters: [
-       'projects/aa.jpg',
-       'projects/psr.jpg',
-        'projects/kalavar-raja-title.png',
-        'projects/agnatha-title.png',
-        'projects/kandi.png'
+       '/projects/aa.jpg',
+       '/projects/psr.jpg',
+        '/projects/kalavar-raja-title.png',
+        '/projects/agnatha-title.png',
+        '/projects/kandi.png'
       ]
     },
  {
       id: 4,
       title: 'Logo Designs',
-      image: 'projects/logos/logo7.png',
-      description: 'Business solutions',
+      image: '/projects/logos/logo7.png',
+      description: 'Branding / Logo Design',
       posters: [
-       'projects/logos/logo7.png',
-       'projects/logos/logo2.png',
-        'projects/logos/logo3.png',
-        'projects/logos/logo8.png'
+       '/projects/logos/logo7.png',
+       '/projects/logos/logo2.png',
+        '/projects/logos/logo3.png',
+        '/projects/logos/logo8.png'
       ]
     },
 
@@ -148,21 +148,21 @@ function App() {
   // Recent work data (posts and logos)
   const recentWork = {
     posts: [
-      ' projects/ips.png',
-      'projects/krk2.jpg',
-      'projects/krk3.jpg',
-      'projects/krk1.jpg',
-      'projects/campaign.jpg',
-      'projects/hc4.jpg'
+      ' /projects/ips.png',
+      '/projects/krk2.jpg',
+      '/projects/krk3.jpg',
+      '/projects/krk1.jpg',
+      '/projects/campaign.jpg',
+      '/projects/hc4.jpg'
     ],
     logos: [
-       'projects/logos/logo 6.jpg',
-      'projects/logos/logo7.png',
-      'projects/logos/logo1.jpg',
-      'projects/logos/logo2.png',
-       'projects/logos/logo3.png',
-      'projects/logos/logo4.jpg',
-      'projects/logos/logo5.jpg',
+       '/projects/logos/logo 6.jpg',
+      '/projects/logos/logo7.png',
+      '/projects/logos/logo1.jpg',
+      '/projects/logos/logo2.png',
+       '/projects/logos/logo3.png',
+      '/projects/logos/logo4.jpg',
+      '/projects/logos/logo5.jpg',
     ]
   };
 
@@ -239,7 +239,7 @@ function App() {
               {/* Front */}
               <div className="absolute inset-0 backface-hidden rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="projects/me.jpeg"
+                  src="/projects/me.jpeg"
                   alt="Anirudh"
                   className="w-full h-full object-cover"
                 />
