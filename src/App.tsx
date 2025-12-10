@@ -171,11 +171,6 @@ function App() {
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-40 p-6">
         <div className="flex justify-between items-center">
-          {/* Availability Badge */}
-          <div className="bg-green-100 text-green-800 px-4 py-2 rounded-full text-sm font-medium flex items-center gap-2">
-            <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-            Slots Open for May 2025
-          </div>
           
           {/* Social Icons */}
           <div className="flex gap-4">
